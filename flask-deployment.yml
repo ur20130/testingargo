@@ -20,7 +20,7 @@ spec:
         app: flask-server
     spec:
       containers:
-      - image: dcr.disastack.com/edu/flask-app:0.3
+      - image: rapidfort/flaskapp:latest
         name: flask
         ports:
         - containerPort: 5000
